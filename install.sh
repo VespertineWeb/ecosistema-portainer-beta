@@ -664,6 +664,7 @@ $traefik_auth_config
     environment:
       - GENERIC_TIMEZONE=America/Sao_Paulo
       - TZ=America/Sao_Paulo
+      - N8N_DEFAULT_LOCALE=pt-BR
       - N8N_HOST=https://$n8n_domain
       - N8N_PORT=5678
       - N8N_PROTOCOL=https
